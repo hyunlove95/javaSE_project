@@ -12,7 +12,7 @@ public class DBManager {
 	private Connection connection;
 	
 	String oracle_driver = "oracle.jdbc.driver.OracleDriver";
-	String oracle_url = "jdb:oracle:thin:@localhost:1521:XE";
+	String oracle_url = "jdbc:oracle:thin:@localhost:1521:XE";
 	String oracle_user = "java";
 	String oracle_pass = "1234";
 	
